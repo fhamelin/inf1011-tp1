@@ -3,7 +3,6 @@ Itérations :
 1.Catalogue
   -Afficher un produit
   -Commander un produit
-  -
 
 2.Clients
   -Ajouter client
@@ -11,11 +10,14 @@ Itérations :
   -Supprimer client
 
 3.Factures
+  -Connecter en tant qu'employé
   -Créer facture
   -Ajouter article
   -Retirer article
 
 4.Paiements
-  -Comptant
-  -Carte
-  -Chèque
+  -À la poste
+  -Sur place
+    -Comptant
+    -Carte
+    -Chèque
