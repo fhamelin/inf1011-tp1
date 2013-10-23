@@ -1,0 +1,21 @@
+Itérations :
+
+1.Catalogue
+  -Afficher un produit
+  -Commander un produit
+  -
+
+2.Clients
+  -Ajouter client
+  -Modifier client
+  -Supprimer client
+
+3.Factures
+  -Créer facture
+  -Ajouter article
+  -Retirer article
+
+4.Paiements
+  -Comptant
+  -Carte
+  -Chèque
