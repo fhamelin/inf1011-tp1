@@ -244,7 +244,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmCatalogue";
-            this.Text = "frmCatalogue";
+            this.Text = "Gestion du catalogue & articles";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCatalogue_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

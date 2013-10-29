@@ -38,19 +38,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.no_item = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.desc_prod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,6 +45,19 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.esc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
@@ -172,6 +172,44 @@
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // no_item
+            // 
+            this.no_item.HeaderText = "# item";
+            this.no_item.Name = "no_item";
+            this.no_item.Width = 80;
+            // 
+            // desc_prod
+            // 
+            this.desc_prod.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.desc_prod.HeaderText = "Nom";
+            this.desc_prod.Name = "desc_prod";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Prix unitaire";
+            this.Column1.Name = "Column1";
+            // 
+            // qte
+            // 
+            this.qte.HeaderText = "Quantité";
+            this.qte.Name = "qte";
+            this.qte.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Quantité retournée";
+            this.Column2.Name = "Column2";
+            // 
+            // esc
+            // 
+            this.esc.HeaderText = "Escompte";
+            this.esc.Name = "esc";
+            // 
+            // total
+            // 
+            this.total.HeaderText = "Total";
+            this.total.Name = "total";
+            // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -204,24 +242,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Facture";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(69, 66);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "2500 de Courval, Trois-Rivières";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 66);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Adresse :";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(221, 21);
@@ -246,6 +266,24 @@
             this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "# Facture :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(69, 66);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(155, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "2500 de Courval, Trois-Rivières";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 66);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Adresse :";
             // 
             // label4
             // 
@@ -297,44 +335,6 @@
             this.groupBox5.TabIndex = 31;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Client";
-            // 
-            // no_item
-            // 
-            this.no_item.HeaderText = "# item";
-            this.no_item.Name = "no_item";
-            this.no_item.Width = 80;
-            // 
-            // desc_prod
-            // 
-            this.desc_prod.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.desc_prod.HeaderText = "Nom";
-            this.desc_prod.Name = "desc_prod";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Prix unitaire";
-            this.Column1.Name = "Column1";
-            // 
-            // qte
-            // 
-            this.qte.HeaderText = "Quantité";
-            this.qte.Name = "qte";
-            this.qte.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Quantité retournée";
-            this.Column2.Name = "Column2";
-            // 
-            // esc
-            // 
-            this.esc.HeaderText = "Escompte";
-            this.esc.Name = "esc";
-            // 
-            // total
-            // 
-            this.total.HeaderText = "Total";
-            this.total.Name = "total";
             // 
             // button3
             // 
