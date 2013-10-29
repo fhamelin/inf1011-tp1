@@ -130,7 +130,7 @@
             this.groupBox3.Controls.Add(this.textBox2);
             this.groupBox3.Location = new System.Drawing.Point(8, 125);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(289, 271);
+            this.groupBox3.Size = new System.Drawing.Size(289, 294);
             this.groupBox3.TabIndex = 26;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Informations employé";
@@ -336,7 +336,7 @@
             this.Column4});
             this.dataGridView1.Location = new System.Drawing.Point(303, 61);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(546, 335);
+            this.dataGridView1.Size = new System.Drawing.Size(546, 358);
             this.dataGridView1.TabIndex = 27;
             // 
             // Column1
@@ -372,7 +372,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "frmEmploye";
-            this.Text = "frmEmploye";
+            this.Text = "Gestion des employés";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmEmploye_FormClosing);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

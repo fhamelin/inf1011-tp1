@@ -64,11 +64,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -426,32 +426,12 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Carte de membre";
             // 
-            // button5
+            // textBox9
             // 
-            this.button5.AutoEllipsis = true;
-            this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(314, 15);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 24;
-            this.button5.Text = "Imprimer";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 21);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(47, 13);
-            this.label12.TabIndex = 25;
-            this.label12.Text = "# carte :";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(53, 17);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(73, 20);
-            this.textBox8.TabIndex = 8;
+            this.textBox9.Location = new System.Drawing.Point(224, 17);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(86, 20);
+            this.textBox9.TabIndex = 8;
             // 
             // label13
             // 
@@ -462,12 +442,32 @@
             this.label13.TabIndex = 26;
             this.label13.Text = "Date d\'expiration :";
             // 
-            // textBox9
+            // textBox8
             // 
-            this.textBox9.Location = new System.Drawing.Point(224, 17);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(86, 20);
-            this.textBox9.TabIndex = 8;
+            this.textBox8.Location = new System.Drawing.Point(53, 17);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(73, 20);
+            this.textBox8.TabIndex = 8;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 21);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(47, 13);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "# carte :";
+            // 
+            // button5
+            // 
+            this.button5.AutoEllipsis = true;
+            this.button5.Enabled = false;
+            this.button5.Location = new System.Drawing.Point(314, 15);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 24;
+            this.button5.Text = "Imprimer";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // frmClients
             // 
@@ -480,7 +480,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "frmClients";
-            this.Text = "frmClients";
+            this.Text = "Gestion des clients";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmClients_FormClosing);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

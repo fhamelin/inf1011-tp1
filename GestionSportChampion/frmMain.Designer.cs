@@ -35,6 +35,8 @@
             this.clientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.employésToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +46,8 @@
             this.venteToolStripMenuItem,
             this.retourToolStripMenuItem,
             this.articlesToolStripMenuItem,
-            this.clientsToolStripMenuItem});
+            this.clientsToolStripMenuItem,
+            this.optionsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1084, 24);
@@ -93,6 +96,22 @@
             this.employésToolStripMenuItem1.Name = "employésToolStripMenuItem1";
             this.employésToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.employésToolStripMenuItem1.Text = "Employés";
+            this.employésToolStripMenuItem1.Click += new System.EventHandler(this.employeToolStripMenuItem_Click);
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivageToolStripMenuItem});
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.optionsToolStripMenuItem.Text = "Options";
+            // 
+            // archivageToolStripMenuItem
+            // 
+            this.archivageToolStripMenuItem.Name = "archivageToolStripMenuItem";
+            this.archivageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.archivageToolStripMenuItem.Text = "Archivage";
+            this.archivageToolStripMenuItem.Click += new System.EventHandler(this.archivageToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -104,7 +123,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.ShowIcon = false;
-            this.Text = "Form1";
+            this.Text = "Sport Champion - Programme de gestion";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -121,6 +140,8 @@
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem employésToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem archivageToolStripMenuItem;
     }
 }
 
