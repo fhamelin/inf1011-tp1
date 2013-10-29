@@ -42,5 +42,19 @@ namespace GestionSportChampion
             frmRetour.MdiParent = this;
             frmRetour.Show();
         }
+
+        private void clientsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmClients frmClient = frmClients.getInstance();
+            frmClient.MdiParent = this;
+            frmClient.Show();
+        }
+
+        private void clientsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEmploye frmEmploye = frmEmploye.getInstance();
+            frmEmploye.MdiParent = this;
+            frmEmploye.Show();
+        }
     }
 }

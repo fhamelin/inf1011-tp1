@@ -1,0 +1,14 @@
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\bin\Debug\GestionSportChampion.exe.config
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\bin\Debug\GestionSportChampion.exe
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\bin\Debug\GestionSportChampion.pdb
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.csprojResolveAssemblyReference.cache
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmCatalogue.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmClients.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmMain.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmVente.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmRetour.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.Properties.Resources.resources
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.csproj.GenerateResource.Cache
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.exe
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.pdb
+C:\Users\Mathieu\Documents\Visual Studio 2013\Projects\GestionSportChampion\GestionSportChampion\obj\Debug\GestionSportChampion.frmEmploye.resources

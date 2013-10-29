@@ -84,13 +84,14 @@
             // clientsToolStripMenuItem1
             // 
             this.clientsToolStripMenuItem1.Name = "clientsToolStripMenuItem1";
-            this.clientsToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
+            this.clientsToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.clientsToolStripMenuItem1.Text = "Clients";
+            this.clientsToolStripMenuItem1.Click += new System.EventHandler(this.clientsToolStripMenuItem_Click);
             // 
             // employésToolStripMenuItem1
             // 
             this.employésToolStripMenuItem1.Name = "employésToolStripMenuItem1";
-            this.employésToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
+            this.employésToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.employésToolStripMenuItem1.Text = "Employés";
             // 
             // frmMain
