@@ -69,6 +69,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -80,9 +81,9 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(711, 12);
+            this.groupBox2.Location = new System.Drawing.Point(730, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(155, 44);
+            this.groupBox2.Size = new System.Drawing.Size(136, 44);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Employé";
@@ -200,6 +201,7 @@
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox3.Controls.Add(this.button6);
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton2);
             this.groupBox3.Controls.Add(this.label11);
@@ -360,9 +362,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(46, 242);
+            this.button4.Location = new System.Drawing.Point(79, 242);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(63, 23);
             this.button4.TabIndex = 9;
             this.button4.Text = "Nouveau";
             this.button4.UseVisualStyleBackColor = true;
@@ -371,9 +373,9 @@
             // 
             this.button3.AutoEllipsis = true;
             this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(208, 242);
+            this.button3.Location = new System.Drawing.Point(217, 242);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(66, 23);
             this.button3.TabIndex = 8;
             this.button3.Text = "Enregistrer";
             this.button3.UseVisualStyleBackColor = true;
@@ -398,9 +400,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(127, 242);
+            this.button2.Location = new System.Drawing.Point(148, 242);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(63, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Modifier";
             this.button2.UseVisualStyleBackColor = true;
@@ -421,13 +423,14 @@
             this.groupBox4.Controls.Add(this.button5);
             this.groupBox4.Location = new System.Drawing.Point(308, 13);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(397, 43);
+            this.groupBox4.Size = new System.Drawing.Size(416, 43);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Carte de membre";
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox9.Location = new System.Drawing.Point(224, 17);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(86, 20);
@@ -444,6 +447,8 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBox8.Enabled = false;
             this.textBox8.Location = new System.Drawing.Point(53, 17);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(73, 20);
@@ -464,10 +469,19 @@
             this.button5.Enabled = false;
             this.button5.Location = new System.Drawing.Point(314, 15);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(96, 23);
             this.button5.TabIndex = 24;
-            this.button5.Text = "Imprimer";
+            this.button5.Text = "Nouvelle carte";
             this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(10, 242);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(63, 23);
+            this.button6.TabIndex = 24;
+            this.button6.Text = "Factures...";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // frmClients
             // 
@@ -538,5 +552,6 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
